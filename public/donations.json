@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "category": "Clothing",
+      "category_bg_color": "#FF5733",
+      "picture": "https://i.ibb.co/jLStccK/cloth1.png",
+      "title": "Warm Clothing Drive",
+      "card_bg_color": "#93CCEA",
+      "text_button_bg_color": "#333333",
+      "description": "Help keep individuals warm and comfortable with our Warm Clothing Drive. Product 1 is a high-quality item that offers exceptional value. It is designed with precision engineering to meet the demands of today's consumers. This versatile product can be used in a variety of settings and is built to last. Whether you need it for personal use or as a gift, Product 1 is sure to impress.",
+      "price": "$19.99"
+    },
+    {
+      "id": 2,
+      "category": "Clothing",
+      "category_bg_color": "#FF5733",
+      "picture": "https://i.ibb.co/ccmKT9Q/cloth2.png",
+      "title": "Children's Clothing Assistance",
+      "card_bg_color": "#93CCEA",
+      "text_button_bg_color": "#333333",
+      "description": "Support children in need with our Children's Clothing Assistance program. Product 2 is a top-of-the-line item that combines style and functionality. With its sleek design and advanced features, it's the perfect choice for those who demand the best. Whether you're a professional or a tech-savvy enthusiast, Product 2 has something to offer for everyone.",
+      "price": "$29.99"
+    },
+    {
+      "id": 3,
+      "category": "Clothing",
+      "category_bg_color": "#FF5733",
+      "picture": "https://i.ibb.co/bW0YgDs/cloth4.png",
+      "title": "Winter Coat Drive",
+      "card_bg_color": "#93CCEA",
+      "text_button_bg_color": "#333333",
+      "description": "Join our Winter Coat Drive and provide warmth to those in need. Product 3 is a versatile and durable option for your everyday needs. Its ergonomic design and reliable performance make it a must-have for any household. Whether you're tackling household chores or pursuing your hobbies, Product 3 is up to the task.",
+      "price": "$39.99"
+    },
+    {
+      "id": 4,
+      "category": "Education",
+      "category_bg_color": "#3498DB",
+      "picture": "https://i.ibb.co/fG6MKsS/edu2.png",
+      "title": "Scholarship Program",
+      "card_bg_color": "#a0db8e",
+      "text_button_bg_color": "#222222",
+      "description": "Empower students through our Scholarship Program. Product 4 is a premium offering that sets new standards in quality and performance. Its innovative features and attention to detail make it the go-to choice for professionals and enthusiasts alike. If you demand nothing but the best, Product 4 is the right choice.",
+      "price": "$49.99"
+    },
+    {
+      "id": 5,
+      "category": "Education",
+      "category_bg_color": "#3498DB",
+      "picture": "https://i.ibb.co/y8655t4/edu3.png",
+      "title": "Tech Education Initiative",
+      "card_bg_color": "#a0db8e",
+      "text_button_bg_color": "#222222",
+      "description": "Support tech education with our Tech Education Initiative. Product 5 is a high-performance solution designed to meet the demands of today's fast-paced world. Its cutting-edge technology and user-friendly interface make it a must-have for those who seek efficiency and convenience. Stay ahead of the curve with Product 5.",
+      "price": "$59.99"
+    },
+    {
+      "id": 6,
+      "category": "Education",
+      "category_bg_color": "#3498DB",
+      "picture": "https://i.ibb.co/1vL4SNw/edu4.png",
+      "title": "Book Donation Drive",
+      "card_bg_color": "#a0db8e",
+      "text_button_bg_color": "#222222",
+      "description": "Promote literacy with our Book Donation Drive. Product 6 is a versatile tool that empowers you to do more. Whether you're at work or play, its robust performance and sleek design make it a reliable companion. Don't settle for less – choose Product 6 and elevate your experience.",
+      "price": "$69.99"
+    },
+    {
+      "id": 7,
+      "category": "Food",
+      "category_bg_color": "#E67E22",
+      "picture": "https://i.ibb.co/Sd92kgD/food1.png",
+      "title": "Hunger Relief Program",
+      "card_bg_color": "#ff7373",
+      "text_button_bg_color": "#444444",
+      "description": "Join our Hunger Relief Program and make a difference in the lives of those facing food insecurity. Product 7 is a premium item that combines style and functionality seamlessly. Its exquisite craftsmanship and attention to detail are bound to leave a lasting impression. Whether you're treating yourself or surprising a loved one, Product 7 is a gift that keeps on giving.",
+      "price": "$79.99"
+    },
+    {
+      "id": 8,
+      "category": "Food",
+      "category_bg_color": "#E67E22",
+      "picture": "https://i.ibb.co/L8bmKJ5/food2.png",
+      "title": "Meal Donation Campaign",
+      "card_bg_color": "#ff7373",
+      "text_button_bg_color": "#444444",
+      "description": "Support our Meal Donation Campaign and provide nourishing meals to those in need. Product 8 is a versatile solution that caters to a wide range of needs. Its intuitive design and robust performance make it a dependable choice for any task. Whether you're at work or play, Product 8 has got you covered.",
+      "price": "$89.99"
+    },
+    {
+      "id": 9,
+      "category": "Food",
+      "category_bg_color": "#E67E22",
+      "picture": "https://i.ibb.co/Dt0xqJy/food4.png",
+      "title": "Community Food Drive",
+      "card_bg_color": "#ff7373",
+      "text_button_bg_color": "#444444",
+      "description": "Participate in our Community Food Drive and make a positive impact on local communities. Product 9 is a high-end offering that redefines excellence. Its cutting-edge features and elegant design make it a statement piece in any setting. Elevate your lifestyle with Product 9 and experience the pinnacle of performance.",
+      "price": "$99.99"
+    },
+    {
+      "id": 10,
+      "category": "Health",
+      "category_bg_color": "#27AE60",
+      "picture": "https://i.ibb.co/K9SwMb2/health1.png",
+      "title": "Healthcare Access Initiative",
+      "card_bg_color": "#ab82ff",
+      "text_button_bg_color": "#555555",
+      "description": "Improve healthcare access with our Healthcare Access Initiative. Product 10 is a powerhouse of innovation and sophistication. Its advanced technology and premium materials make it a game-changer in its category. Whether you're a professional or an enthusiast, Product 10 is designed to exceed your expectations.",
+      "price": "$109.99"
+    },
+    {
+      "id": 11,
+      "category": "Health",
+      "category_bg_color": "#27AE60",
+      "picture": "https://i.ibb.co/jbcxvwB/health2.png",
+      "title": "Medical Supplies Donation",
+      "card_bg_color": "#ab82ff",
+      "text_button_bg_color": "#555555",
+      "description": "Support healthcare facilities with our Medical Supplies Donation program. Product 11 is the epitome of style and performance. Its sleek and modern design is complemented by its powerful features. If you're looking for a product that makes a statement and delivers exceptional results, Product 11 is the perfect choice.",
+      "price": "$119.99"
+    },
+    {
+      "id": 12,
+      "category": "Health",
+      "category_bg_color": "#27AE60",
+      "picture": "https://i.ibb.co/dLmcHcC/health3.png",
+      "title": "Mental Health Awareness",
+      "card_bg_color": "#ab82ff",
+      "text_button_bg_color": "#555555",
+      "description": "Promote mental health awareness with our initiative. Product 12 is a masterpiece of craftsmanship and engineering. Its attention to detail and precision performance set it apart from the competition. Whether you're a connoisseur or a discerning buyer, Product 12 is the embodiment of luxury and excellence.",
+      "price": "$129.99"
+    }
+  ]
+  
