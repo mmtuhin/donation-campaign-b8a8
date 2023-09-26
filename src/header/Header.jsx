@@ -2,12 +2,12 @@ import Banner from "../components/Banner/Banner";
 import NavBar from "../components/NavBar/NavBar";
 
 
-const Header = () => {
+const Header = ({handleOnSubmit}) => {
     return (
         <div>
             <div>
                 <NavBar></NavBar>
-                <Banner></Banner>
+                <Banner handleOnSubmit={handleOnSubmit}></Banner>
             </div>
             
         </div>

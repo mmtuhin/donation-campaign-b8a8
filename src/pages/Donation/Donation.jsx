@@ -36,13 +36,13 @@ const Donation = () => {
                         {
                             isShow ? storedDonations.map(donation => <DonationPageCard key={donation.id} donation={donation}></DonationPageCard>)
                                 :
-                                storedDonations.slice(0, 2).map(donation => <DonationPageCard key={donation.id} donation={donation}></DonationPageCard>)
+                                storedDonations.slice(0, 4).map(donation => <DonationPageCard key={donation.id} donation={donation}></DonationPageCard>)
 
                         }
                     </div>
                     <div className="text-center">
                         {
-                            storedDonations.length > 2 && <button className="bg-[#009444] my-8  py-3 px-6 font-semibold text-white rounded" onClick={() => setIsShow(!isShow)}>{isShow ? 'See Less' : 'See More'}</button>
+                            storedDonations.length > 4 && <button className="bg-[#009444] my-8  py-3 px-6 font-semibold text-white rounded" onClick={() => setIsShow(!isShow)}>{isShow ? 'See Less' : 'See More'}</button>
                         }
                     </div>
                 </div>}
