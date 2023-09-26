@@ -1,11 +1,10 @@
 
 
 const DonationPageCard = ({ donation }) => {
-    const { id, category, picture, text_button_bg_color, description, title, price } = donation
-    console.log(donation);
+    const { category,category_bg_color,card_bg_color, picture, text_button_bg_color, title, price } = donation
     return (
         <div >
-            <div className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-white">
+            <div style={{ backgroundColor: `${card_bg_color}` }} className="relative flex w-full flex-row rounded-xl ">
                 <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border">
                     <img
                         src={picture}
@@ -14,21 +13,22 @@ const DonationPageCard = ({ donation }) => {
                     />
                 </div>
                 <div className="p-6">
-                    <h6 className="">
+                    <h6 style={{ backgroundColor: `${category_bg_color}`, color: `${text_button_bg_color}` }} className="w-min text-sm font-medium py-1 px-2 mb-3 rounded">
                         {category}
                     </h6>
-                    <h4 className="">
+                    <h4 className="text-black text-2xl font-semibold my-2">
                        {title}
                     </h4>
-                    <p className="">
+                    <p style={{color: `${text_button_bg_color}` }} className="font-semibold mb-4">
                         {price}
                     </p>
                     <a className="inline-block" href="#">
-                        <button
-                            className=""
+                        <button 
+                            style={{ backgroundColor: `${text_button_bg_color}` }}
+                            className="text-white px-4 py-2 text-lg font-semibold rounded"
                             type="button"
                         >
-                            Show Details
+                            View Details
                         </button>
                     </a>
                 </div>

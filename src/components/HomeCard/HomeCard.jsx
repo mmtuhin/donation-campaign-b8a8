@@ -12,11 +12,11 @@ const HomeCard = ({ donation }) => {
     return (
         <div>
             <Link to={`/donation/${id}`}>
-                <div style={{ backgroundColor: `${card_bg_color}` }} className="h-full">
-                    <img src={picture} alt="" />
-                    <div>
-                        <h1>{category}</h1>
-                        <h1>{title}</h1>
+                <div style={{ backgroundColor: `${card_bg_color}` }} className="h-full rounded-lg">
+                    <img src={picture} alt="" className="rounded-t-lg"/>
+                    <div className="m-4">
+                        <h1 style={{ backgroundColor: `${category_bg_color}`, color: `${text_button_bg_color}` }} className="w-min text-sm font-medium py-1 px-2 mb-3 rounded">{category}</h1>
+                        <h1 style={{ color: `${text_button_bg_color}` }} className="font-bold">{title}</h1>
                     </div>
                 </div>
             </Link>

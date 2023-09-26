@@ -17,7 +17,7 @@ const DonationDetails = () => {
 
     //console.log(donationDetails);
     return (
-        <div>
+        <div className="px-4 py-10 md:px-20">
             <Donationdetailscard donationDetails={donationDetails}></Donationdetailscard>
         </div>
     );

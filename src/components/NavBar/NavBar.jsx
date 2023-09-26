@@ -4,7 +4,7 @@ import Logo from "../Logo/Logo";
 const NavBar = () => {
     const activeDesign = ({ isActive, isPending }) => isPending ? "pending" : isActive ? "font-bold underline text-[#FF444A]" : ""
     return (
-        <nav className="flex flex-col md:flex-row justify-between items-center">
+        <nav className="flex flex-col md:flex-row justify-between items-center px-4 pt-10 md:px-20">
             <Logo></Logo>
             <ul className="flex gap-5 text-lg">
                 <li>

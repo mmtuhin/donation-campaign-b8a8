@@ -23,11 +23,11 @@ const Statistics = () => {
     ];
     
     const options = {
-        title: "My Donation Stat",
+        
         legend: {
             position: "bottom", // Change the legend position to "bottom"
-        },
-        titlePosition: "out",
+        }
+        
     };
 
     return (
