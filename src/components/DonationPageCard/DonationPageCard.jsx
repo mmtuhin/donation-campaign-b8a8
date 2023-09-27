@@ -16,7 +16,7 @@ const DonationPageCard = ({ donation }) => {
                     <h6 style={{ backgroundColor: `${category_bg_color}`, color: `${text_button_bg_color}` }} className="w-min text-sm font-medium py-1 px-2 mb-3 rounded">
                         {category}
                     </h6>
-                    <h4 className="text-black text-2xl font-semibold my-2">
+                    <h4 className="text-black text-lg md:text-2xl font-semibold my-2">
                        {title}
                     </h4>
                     <p style={{color: `${text_button_bg_color}` }} className="font-semibold mb-4">
@@ -25,7 +25,7 @@ const DonationPageCard = ({ donation }) => {
                     <a className="inline-block" href="#">
                         <button 
                             style={{ backgroundColor: `${text_button_bg_color}` }}
-                            className="text-white px-4 py-2 text-lg font-semibold rounded"
+                            className="text-white px-2 md:px-4 py-1 md:py-2 text-lg font-semibold rounded"
                             type="button"
                         >
                             View Details

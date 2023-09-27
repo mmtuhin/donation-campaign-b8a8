@@ -27,7 +27,7 @@ const Donation = () => {
 
     return (
         <div className="px-4 py-10 md:px-20">
-            {notFound ? <p>{notFound}</p>
+            {notFound ? <p className="text-center text-yellow-400 text-xl py-2 font-bold mt-10 bg-slate-600">{notFound}</p>
                 : <div>
                     <div className="text-center">
                         {storedDonations.length > 0 && <button onClick={handleRemoveHistory} className="text-center bg-sky-300 py-2 px-2 rounded font-medium my-4 hover:bg-sky-600 hover:text-white">Remove Donation History</button>}
