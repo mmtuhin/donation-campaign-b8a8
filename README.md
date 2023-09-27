@@ -2,7 +2,7 @@
 
 This site provides you a way to donate on various donation program.
 
-Three main project features are listed below.
+Three main project features are listed below:
 
 - Dynamic Data Loading, routing and error page.
 - Search Functionality according to category
